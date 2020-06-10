@@ -1,0 +1,71 @@
+@media(max-width: 1000px){
+	.section2-wrapper{
+		flex-wrap: wrap;
+	}
+	.sec2-inside-box{
+		width: 100%;
+		height: 50%;
+		align-items: center;
+    }
+    .icon-wrapper{
+    	width:50px;
+    	height: 50px;
+    }
+    .fas fa-umbrella icon{
+    	font-size: 10px;
+    }
+    .section3-content-wrapper{
+    	display: flex;
+    	flex-direction: column-reverse;
+    	align-items: center;
+    }
+    .sec3-image{
+    	width: 100%;
+    	height: 300px;
+    }
+    .section3-content-wrapper2{
+    	display: flex;
+    	flex-direction: column;
+    }
+    .orchid-image{
+    	width: 100%;
+    	height: 300px;
+    }
+    .blue-button{
+    	width: 150px;
+    }
+    .form-div{
+    	margin: auto;
+    	width:100%;
+    	display: flex;
+    	justify-content: center;
+    }
+}
+
+@media(max-width: 800px){
+	.building-image{
+		display: none;
+	}
+	.left-wrapper-box{
+		padding: 10px;
+		margin:0 auto;
+
+	}
+	.title{
+	height: 300px;
+    }
+ }
+
+@media(max-width: 650px){
+	.navigation{
+		display: none;
+	}
+	.h1-title{
+		font-size: 40px;
+		
+	}
+	.header-button{
+		width:50%;
+	}
+	
+}
